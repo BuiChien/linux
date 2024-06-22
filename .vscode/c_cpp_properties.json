@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "linux-kernel",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/arch/arm/include"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/include/generated/autoconf.h"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/opt/ti-processor-sdk-linux-am335x-evm-09.01.00.001/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc",
+            "cStandard": "gnu11",
+            "intelliSenseMode": "<IntelliSenseMode>"
+        }
+    ],
+    "version": 4
+}
